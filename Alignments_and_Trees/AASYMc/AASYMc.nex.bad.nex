@@ -1,0 +1,13 @@
+#nexus
+[ partition information for alignment written in aapartitionsymtest.nex.good.phy file ]
+begin sets;
+  charset atp6_mafft = 1-200;
+  charset cox1_mafft = 201-939;
+  charset cox2_mafft = 940-1188;
+  charset cox3_mafft = 1189-1447;
+  charset cytb_mafft = 1448-1824;
+  charset nad2_mafft = 1825-2175;
+  charset nad3_mafft = 2176-2360;
+  charset nad4L_mafft = 2361-2456;
+  charset nad4_mafft = 2457-2900;
+end;

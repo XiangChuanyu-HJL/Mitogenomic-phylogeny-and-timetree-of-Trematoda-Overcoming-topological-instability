@@ -1,0 +1,24 @@
+#nexus
+begin sets;
+  charset atp6_mafft_gb = , 1-131;
+  charset cox1_mafft_gb = , 132-615;
+  charset cox2_mafft_gb = , 616-762;
+  charset cox3_mafft_gb = , 763-921;
+  charset cytb_mafft_gb = , 922-1284;
+  charset nad1_mafft_gb = , 1285-1559;
+  charset nad2_mafft_gb = , 1560-1788;
+  charset nad3_mafft_gb = , 1789-1868;
+  charset nad4L_mafft_gb = , 1869-1949;
+  charset nad6_mafft_gb = , 2626-2729;
+  charpartition mymodels =
+    mtInv+F+R5{0.10541,0.0257223,0.421003,0.308234,0.217255,0.812334,0.180899,1.97937,0.0754334,4.41411}: atp6_mafft_gb{23.2051},
+    mtZOA+F+I{0.245159}+G4{0.821331}: cox1_mafft_gb{9.51103},
+    mtZOA+F+I{0.128734}+G4{0.734987}: cox2_mafft_gb{22.4159},
+    mtInv+F+I{0.0781253}+G4{1.29764}: cox3_mafft_gb{22.119},
+    mtMet+F+I{0.182233}+R5{0.210441,0.11614,0.190848,0.384195,0.168993,0.901838,0.19904,2.18651,0.0484444,6.49466}: cytb_mafft_gb{13.3815},
+    mtZOA+F+I{0.00229888}+G4{0.577885}: nad1_mafft_gb{18.0755},
+    mtInv+F+G4{1.07161}: nad2_mafft_gb{26.9305},
+    mtInv+F+G4{0.767158}: nad3_mafft_gb{21.2493},
+    mtMet+F+G4{0.805122}: nad4L_mafft_gb{22.0391},
+    mtZOA+F+G4{1.08899}: nad6_mafft_gb{20.0669};
+end;

@@ -1,0 +1,75 @@
+# Matched-pair tests of symmetry
+# This file can be read in MS Excel or in R with command:
+#    dat=read.csv('pcgrnapartition.nex.symtest.csv',comment.char='#')
+# Columns are comma-separated with following meanings:
+#    Name:    Partition name
+#    SymSig:  Number of significant sequence pairs by test of symmetry
+#    SymNon:  Number of non-significant sequence pairs by test of symmetry
+#    SymPval: P-value for maximum test of symmetry
+#    MarSig:  Number of significant sequence pairs by test of marginal symmetry
+#    MarNon:  Number of non-significant sequence pairs by test of marginal symmetry
+#    MarPval: P-value for maximum test of marginal symmetry
+#    IntSig:  Number of significant sequence pairs by test of internal symmetry
+#    IntNon:  Number of non-significant sequence pairs by test of internal symmetry
+#    IntPval: P-value for maximum test of internal symmetry
+Name,SymSig,SymNon,SymPval,MarSig,MarNon,MarPval,IntSig,IntNon,IntPval
+atp6_mafft_NT_removed_chars_gb_codon1,301,1184,0.15578,408,1074,0.0550534,38,1435,0.629888
+atp6_mafft_NT_removed_chars_gb_codon2,96,1388,0.0388617,128,1351,0.526513,52,1420,0.0114694
+atp6_mafft_NT_removed_chars_gb_codon3,666,819,0.000389136,793,692,0.000120878,39,1446,0.263394
+cox1_mafft_NT_removed_chars_gb_codon1,538,893,5.86692e-05,655,776,3.27149e-06,62,1367,0.833394
+cox1_mafft_NT_removed_chars_gb_codon2,64,1365,0.412813,129,1292,0.313699,33,1381,0.468396
+cox1_mafft_NT_removed_chars_gb_codon3,1107,324,0,1181,250,0,44,1387,0.309639
+cox2_mafft_NT_removed_chars_gb_codon1,71,1414,0.42795,98,1382,0.26851,56,1416,0.567827
+cox2_mafft_NT_removed_chars_gb_codon2,39,1446,0.432218,25,1448,0.285664,101,1362,0.544829
+cox2_mafft_NT_removed_chars_gb_codon3,732,753,5.17516e-07,837,648,1.5125e-08,44,1441,0.932761
+cox3_mafft_NT_removed_chars_gb_codon1,329,1102,0.000698027,447,984,0.000370419,55,1376,0.17536
+cox3_mafft_NT_removed_chars_gb_codon2,46,1385,0.780334,41,1386,0.575673,78,1340,0.743647
+cox3_mafft_NT_removed_chars_gb_codon3,754,677,3.00465e-07,868,563,1.33844e-08,43,1388,0.708857
+cytb_mafft_NT_removed_chars_gb_codon1,616,869,0.000461392,711,772,0.000230062,75,1406,0.177
+cytb_mafft_NT_removed_chars_gb_codon2,214,1271,0.00669655,345,1133,0.102654,50,1416,0.00876817
+cytb_mafft_NT_removed_chars_gb_codon3,1094,391,1.18905e-12,1174,311,7.66054e-14,52,1433,0.308417
+nad1_mafft_NT_removed_chars_gb_codon1,568,863,3.30595e-05,698,732,2.20303e-06,45,1384,0.714633
+nad1_mafft_NT_removed_chars_gb_codon2,168,1262,0.557588,232,1196,0.570225,71,1343,0.410077
+nad1_mafft_NT_removed_chars_gb_codon3,1064,367,0,1147,284,0,34,1397,0.732776
+nad2_mafft_NT_removed_chars_gb_codon1,471,1014,2.94123e-09,587,898,5.80481e-11,65,1420,0.947596
+nad2_mafft_NT_removed_chars_gb_codon2,198,1287,0.054403,254,1229,0.261464,75,1401,0.039129
+nad2_mafft_NT_removed_chars_gb_codon3,943,542,3.92353e-13,1052,433,7.10543e-15,39,1446,0.774261
+nad3_mafft_NT_removed_chars_gb_codon1,167,1318,0.0231846,245,1236,0.191946,63,1407,0.0193609
+nad3_mafft_NT_removed_chars_gb_codon2,87,1397,0.811829,79,1388,0.978918,53,1405,0.426059
+nad3_mafft_NT_removed_chars_gb_codon3,585,900,5.38839e-07,702,782,8.01448e-08,42,1441,0.287625
+nad4L_mafft_NT_removed_chars_gb_codon1,107,1378,0.297241,108,1362,0.20974,94,1360,0.434501
+nad4L_mafft_NT_removed_chars_gb_codon2,9,1462,0.19321,13,1398,0.0833621,78,1276,0.572148
+nad4L_mafft_NT_removed_chars_gb_codon3,530,955,0.0645989,661,824,0.0106205,20,1463,0.880285
+nad4_mafft_NT_removed_chars_gb_codon1,784,701,7.77415e-05,891,593,1.36615e-05,35,1448,0.364359
+nad4_mafft_NT_removed_chars_gb_codon2,337,1148,0.0053761,398,1082,0.000869282,85,1386,0.613825
+nad4_mafft_NT_removed_chars_gb_codon3,1120,365,3.33067e-16,1213,272,0,40,1445,0.487677
+nad5_mafft_NT_removed_chars_gb_codon1,882,603,8.79297e-14,982,503,3.33067e-15,60,1424,0.431636
+nad5_mafft_NT_removed_chars_gb_codon2,389,1096,0.0329848,405,1078,0.0931126,108,1375,0.0628961
+nad5_mafft_NT_removed_chars_gb_codon3,1211,274,8.73928e-10,1269,216,2.84898e-11,44,1441,0.674656
+nad6_mafft_NT_removed_chars_gb_codon1,390,1095,0.106528,502,981,0.0156367,32,1446,0.993394
+nad6_mafft_NT_removed_chars_gb_codon2,90,1395,0.36762,162,1318,0.953858,34,1435,0.102866
+nad6_mafft_NT_removed_chars_gb_codon3,655,830,3.75376e-11,788,697,8.2101e-13,35,1449,0.784992
+rrnL_mafft_gb,953,532,1.45265e-11,1046,439,4.42979e-13,62,1423,0.606411
+rrnS_mafft_gb,630,855,0.0258693,723,761,0.0279437,65,1415,0.154002
+trnA_mafft_gb,47,1438,0.287516,80,1387,0.191742,40,1357,0.45155
+trnC_mafft_gb,58,1427,0.310694,87,1389,0.33315,41,1405,0.295127
+trnD_mafft_gb,54,1431,0.167819,73,1405,0.193401,56,1383,0.22298
+trnE_mafft_gb,31,1244,0.540311,73,1184,0.344548,33,1182,0.690329
+trnF_mafft_gb,46,1438,0.504234,61,1408,0.730464,73,1350,0.220222
+trnG_mafft_gb,87,1343,0.690636,142,1281,0.495667,37,1365,0.680489
+trnH_mafft_gb,78,1405,0.443863,154,1318,0.529198,35,1386,0.307498
+trnI_mafft_gb,28,1455,0.63181,57,1377,0.652961,22,1251,0.403327
+trnK_mafft_gb,27,1457,0.859664,92,1372,0.699741,30,1375,0.764293
+trnL1_mafft_gb,37,1394,0.161461,55,1363,0.160719,42,1368,0.25441
+trnL2_mafft_gb,21,1407,0.501825,39,1378,0.190977,26,1358,0.900432
+trnM_mafft_gb,34,1449,0.0325741,67,1368,0.00975193,27,1292,0.681316
+trnN_mafft_gb,103,1382,0.158136,173,1268,0.0599305,38,1363,0.598488
+trnP_mafft_gb,115,1316,0.142287,133,1290,0.405046,58,1310,0.0689224
+trnQ_mafft_gb,10,1474,0.636149,13,1440,0.455017,34,1253,0.640081
+trnR_mafft_gb,15,1470,0.24936,15,1454,0.23985,45,1376,0.30292
+trnS1_mafft_gb,76,1354,0.109618,133,1260,0.0223148,57,1251,0.854217
+trnS2_mafft_gb,29,960,0.240858,82,891,0.129124,31,932,0.584616
+trnT_mafft_gb,78,1407,0.306528,138,1344,0.134913,32,1441,0.805038
+trnV_mafft_gb,38,1447,0.53669,54,1417,0.344466,40,1356,0.681822
+trnW_mafft_gb,83,1402,0.20919,126,1333,0.319406,17,1361,0.178857
+trnY_mafft_gb,95,1389,0.102638,181,1273,0.129893,14,1350,0.177868

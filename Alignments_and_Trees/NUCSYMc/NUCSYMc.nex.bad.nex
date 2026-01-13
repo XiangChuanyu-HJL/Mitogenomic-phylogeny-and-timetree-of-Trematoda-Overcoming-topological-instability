@@ -1,0 +1,38 @@
+#nexus
+[ partition information for alignment written in nucpartitionsymtest.nex.good.phy file ]
+begin sets;
+  charset atp6_mafft_NT_removed_chars_gb_codon1 = 1-145;
+  charset atp6_mafft_NT_removed_chars_gb_codon2 = 146-290;
+  charset cox1_mafft_NT_removed_chars_gb_codon1 = 291-791;
+  charset cox1_mafft_NT_removed_chars_gb_codon2 = 792-1292;
+  charset cox2_mafft_NT_removed_chars_gb_codon1 = 1293-1466;
+  charset cox2_mafft_NT_removed_chars_gb_codon2 = 1467-1640;
+  charset cox2_mafft_NT_removed_chars_gb_codon3 = 1641-1814;
+  charset cox3_mafft_NT_removed_chars_gb_codon2 = 1815-2012;
+  charset nad1_mafft_NT_removed_chars_gb_codon2 = 2013-2299;
+  charset nad2_mafft_NT_removed_chars_gb_codon2 = 2300-2551;
+  charset nad3_mafft_NT_removed_chars_gb_codon2 = 2552-2651;
+  charset nad4L_mafft_NT_removed_chars_gb_codon1 = 2652-2731;
+  charset nad4L_mafft_NT_removed_chars_gb_codon2 = 2732-2811;
+  charset nad4L_mafft_NT_removed_chars_gb_codon3 = 2812-2891;
+  charset nad4_mafft_NT_removed_chars_gb_codon2 = 2892-3278;
+  charset nad5_mafft_NT_removed_chars_gb_codon2 = 3279-3736;
+  charset trnA_mafft_gb = 3737-3796;
+  charset trnD_mafft_gb = 3797-3846;
+  charset trnE_mafft_gb = 3847-3896;
+  charset trnF_mafft_gb = 3897-3954;
+  charset trnG_mafft_gb = 3955-4017;
+  charset trnI_mafft_gb = 4018-4080;
+  charset trnK_mafft_gb = 4081-4128;
+  charset trnL1_mafft_gb = 4129-4183;
+  charset trnL2_mafft_gb = 4184-4238;
+  charset trnN_mafft_gb = 4239-4299;
+  charset trnP_mafft_gb = 4300-4359;
+  charset trnQ_mafft_gb = 4360-4407;
+  charset trnR_mafft_gb = 4408-4460;
+  charset trnS1_mafft_gb = 4461-4505;
+  charset trnS2_mafft_gb = 4506-4550;
+  charset trnT_mafft_gb = 4551-4610;
+  charset trnV_mafft_gb = 4611-4659;
+  charset trnW_mafft_gb = 4660-4718;
+end;

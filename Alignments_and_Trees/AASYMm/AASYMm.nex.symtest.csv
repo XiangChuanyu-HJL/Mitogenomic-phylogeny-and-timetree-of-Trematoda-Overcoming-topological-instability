@@ -1,0 +1,27 @@
+# Matched-pair tests of symmetry
+# This file can be read in MS Excel or in R with command:
+#    dat=read.csv('aapartitionsymtest.nex.symtest.csv',comment.char='#')
+# Columns are comma-separated with following meanings:
+#    Name:    Partition name
+#    SymSig:  Number of significant sequence pairs by test of symmetry
+#    SymNon:  Number of non-significant sequence pairs by test of symmetry
+#    SymPval: P-value for maximum test of symmetry
+#    MarSig:  Number of significant sequence pairs by test of marginal symmetry
+#    MarNon:  Number of non-significant sequence pairs by test of marginal symmetry
+#    MarPval: P-value for maximum test of marginal symmetry
+#    IntSig:  Number of significant sequence pairs by test of internal symmetry
+#    IntNon:  Number of non-significant sequence pairs by test of internal symmetry
+#    IntPval: P-value for maximum test of internal symmetry
+Name,SymSig,SymNon,SymPval,MarSig,MarNon,MarPval,IntSig,IntNon,IntPval
+atp6_mafft_gb,3,1482,0.245978,10,68,0.290746,1,77,0.299491
+cox1_mafft_gb,28,1403,0.118279,104,807,0.0106362,3,908,0.594085
+cox2_mafft_gb,0,1485,0.736889,4,453,0.689679,0,457,0.631413
+cox3_mafft_gb,1,1430,0.358492,18,237,0.891808,1,254,0.119987
+cytb_mafft_gb,44,1441,0.431043,88,237,0.315814,1,324,0.51761
+nad1_mafft_gb,117,1314,0.0716597,21,48,nan,1,68,nan
+nad2_mafft_gb,36,1449,0.343394,28,161,nan,1,188,nan
+nad3_mafft_gb,0,1485,0.252087,0,90,nan,0,90,nan
+nad4L_mafft_gb,1,1483,0.484932,2,8,nan,0,10,nan
+nad4_mafft_gb,88,1397,0.00731487,235,456,nan,6,685,nan
+nad5_mafft_gb,55,1430,0.0280303,198,438,0.000289548,2,634,0.552947
+nad6_mafft_gb,4,1481,0.366959,0,0,nan,0,0,nan

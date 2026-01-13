@@ -1,0 +1,128 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=55;
+	taxlabels
+		Alaria_americana_MH536507_1
+		Apharyngostrigea_pipientis_NC_059570_1
+		Artyfechinostomum_sufrartyfex_KX943545_1
+		Aspidogaster_conchicola_Unclassified__Aspidog_chicola
+		Aspidogaster_ijimai_Unclassified__Aspidog__ijimai
+		Azygia_hwangtsiyui_NC_049873_1
+		Benedenia_seriolae_AP019637_1
+		Brachycladium_goliath_NC_029757_1
+		Calicophoron_microbothrioides_NC_027271_1
+		Cardiocephaloides_medioconiger_MH536508_1
+		Clinostomum_complanatum_MK814187_1
+		Clonorchis_sinensis_JF729303_1
+		Cotylurus_marcogliesei_MH536509_1
+		Cryptocotyle_lingua_OL853496_1
+		Cyathocotyle_prussica_NC_039780_1
+		Dicrocoelium_chinensis_NC_025279_1
+		Diplostomum_ardeae_NC_049068_1
+		Echinochasmus_japonicus_NC_030518_1
+		Echinostoma_caproni_AP017706_1
+		Eurytrema_pancreaticum_KP241855_1
+		Explanatum_explanatum_NC_027958_1
+		Fasciola_gigantica_MH621335_1
+		Fischoederius_cobboldi_NC_030529_1
+		Fischoederius_elongatus_MN537973_1
+		Gastrothylax_crumenifer_NC_027833_1
+		Glypthelmins_quieta_MZ099629_1
+		Gyrodactylus_salaris_EF527269_1
+		Haplorchis_taichui_MG972809_1
+		Hysteromorpha_triloba_MH536511_1
+		Lyperosomum_longicauda_NC_048467_1
+		Metagonimus_yokogawai_NC_023249_1
+		Metorchis_orientalis_NC_028008_1
+		Notocotylus_intestinalis_NC_059797_1
+		Ogmocotyle_sikae_NC_027112_1
+		Opisthorchis_felineus_NC_011127_2
+		Opisthorchis_sudarikovi_MK033132_1
+		Orthocoelium_streptocoelium_NC_028071_1
+		Paragonimus_heterotremus_KY952166_1
+		Paragonimus_kellicotti_MH322000_1
+		Paragonimus_ohirai_NC_032032_1
+		Paragonimus_westermani_AF540958_1
+		Paragonimus_westermani_complex_sp__type_1_NC_027673_1
+		Plagiorchis_maculosus_NC_042482_1
+		Postharmostomum_commutatum_NC_044643_1
+		Prosthogonimus_cuneatus_NC_050918_1
+		Schistosoma_curassoni_AP017708_1
+		Schistosoma_guineensis_MK341584_1
+		Schistosoma_haematobium_MK253567_1
+		Schistosoma_japonicum_HM120841_1
+		Schistosoma_mekongi_NC_002529_1
+		Schistosoma_turkestanicum_HQ283100_1
+		Tamerlania_zarudnyi_NC_057537_1
+		Tracheophilus_cymbius_NC_044135_1
+		Trichobilharzia_regenti_AP017711_1
+		Tylodelphys_immer_MH536513_1
+		;
+end;
+begin trees;
+	translate
+		1	Alaria_americana_MH536507_1,
+		2	Apharyngostrigea_pipientis_NC_059570_1,
+		3	Artyfechinostomum_sufrartyfex_KX943545_1,
+		4	Aspidogaster_conchicola_Unclassified__Aspidog_chicola,
+		5	Aspidogaster_ijimai_Unclassified__Aspidog__ijimai,
+		6	Azygia_hwangtsiyui_NC_049873_1,
+		7	Benedenia_seriolae_AP019637_1,
+		8	Brachycladium_goliath_NC_029757_1,
+		9	Calicophoron_microbothrioides_NC_027271_1,
+		10	Cardiocephaloides_medioconiger_MH536508_1,
+		11	Clinostomum_complanatum_MK814187_1,
+		12	Clonorchis_sinensis_JF729303_1,
+		13	Cotylurus_marcogliesei_MH536509_1,
+		14	Cryptocotyle_lingua_OL853496_1,
+		15	Cyathocotyle_prussica_NC_039780_1,
+		16	Dicrocoelium_chinensis_NC_025279_1,
+		17	Diplostomum_ardeae_NC_049068_1,
+		18	Echinochasmus_japonicus_NC_030518_1,
+		19	Echinostoma_caproni_AP017706_1,
+		20	Eurytrema_pancreaticum_KP241855_1,
+		21	Explanatum_explanatum_NC_027958_1,
+		22	Fasciola_gigantica_MH621335_1,
+		23	Fischoederius_cobboldi_NC_030529_1,
+		24	Fischoederius_elongatus_MN537973_1,
+		25	Gastrothylax_crumenifer_NC_027833_1,
+		26	Glypthelmins_quieta_MZ099629_1,
+		27	Gyrodactylus_salaris_EF527269_1,
+		28	Haplorchis_taichui_MG972809_1,
+		29	Hysteromorpha_triloba_MH536511_1,
+		30	Lyperosomum_longicauda_NC_048467_1,
+		31	Metagonimus_yokogawai_NC_023249_1,
+		32	Metorchis_orientalis_NC_028008_1,
+		33	Notocotylus_intestinalis_NC_059797_1,
+		34	Ogmocotyle_sikae_NC_027112_1,
+		35	Opisthorchis_felineus_NC_011127_2,
+		36	Opisthorchis_sudarikovi_MK033132_1,
+		37	Orthocoelium_streptocoelium_NC_028071_1,
+		38	Paragonimus_heterotremus_KY952166_1,
+		39	Paragonimus_kellicotti_MH322000_1,
+		40	Paragonimus_ohirai_NC_032032_1,
+		41	Paragonimus_westermani_AF540958_1,
+		42	Paragonimus_westermani_complex_sp__type_1_NC_027673_1,
+		43	Plagiorchis_maculosus_NC_042482_1,
+		44	Postharmostomum_commutatum_NC_044643_1,
+		45	Prosthogonimus_cuneatus_NC_050918_1,
+		46	Schistosoma_curassoni_AP017708_1,
+		47	Schistosoma_guineensis_MK341584_1,
+		48	Schistosoma_haematobium_MK253567_1,
+		49	Schistosoma_japonicum_HM120841_1,
+		50	Schistosoma_mekongi_NC_002529_1,
+		51	Schistosoma_turkestanicum_HQ283100_1,
+		52	Tamerlania_zarudnyi_NC_057537_1,
+		53	Tracheophilus_cymbius_NC_044135_1,
+		54	Trichobilharzia_regenti_AP017711_1,
+		55	Tylodelphys_immer_MH536513_1
+		;
+   [Note: This tree contains information on the topology, 
+          branch lengths (if present), and the probability
+          of the partition indicated by the branch.]
+   tree con_50_majrule = (1:1.083771e-01,((2:1.535147e-01,(((((((((((3:9.871091e-02,19:8.329137e-02)1.000:1.162480e-01,22:2.075638e-01)1.000:5.086009e-02,18:2.390777e-01)1.000:3.549191e-02,53:2.896504e-01)1.000:1.173197e-01,(((9:3.860122e-02,(((23:2.237143e-02,24:1.826005e-02)1.000:1.913051e-02,25:3.234550e-02)1.000:2.931827e-02,37:7.658591e-02)0.930:1.008933e-02)0.927:1.181186e-02,21:2.539564e-02)1.000:2.085933e-01,(33:1.545800e-01,34:1.017645e-01)1.000:1.151444e-01)1.000:1.169109e-01)0.638:2.165445e-02,(((8:2.042473e-01,((38:6.060636e-02,(39:6.541243e-02,40:8.601959e-02)0.997:1.525698e-02)1.000:2.324173e-02,(41:4.272286e-02,42:6.780658e-02)1.000:6.213209e-02)1.000:2.344579e-01)0.940:4.025259e-02,((((12:8.408204e-02,(35:6.132178e-02,36:6.970186e-02)1.000:2.720333e-02)1.000:2.144398e-02,32:7.764527e-02)1.000:2.638797e-01,14:1.153822e-01)1.000:4.255918e-02,(28:1.941606e-01,31:2.680800e-01)1.000:4.297006e-02)1.000:1.602352e-01)1.000:3.947970e-02,(26:2.114543e-01,43:2.005786e-01)1.000:1.480564e-01)0.523:3.272456e-02)0.531:4.544477e-02,((16:4.263272e-01,(20:3.589334e-01,30:3.115302e-01)1.000:9.001264e-02)1.000:2.360595e-01,(45:5.856145e-01,52:7.345631e-01)1.000:1.508506e-01)1.000:9.573405e-02)1.000:6.400902e-02,6:5.544175e-01)1.000:4.705321e-02,((4:1.549057e-01,5:1.459799e-01)1.000:5.192304e-01,((7:4.591271e-01,27:9.876354e-01)1.000:2.920450e-01,(((((46:4.432707e-02,47:3.765276e-02)1.000:5.727563e-02,48:1.302235e-01)1.000:4.476783e-01,51:4.138369e-01)1.000:1.541732e-01,(49:1.892797e-01,50:1.899690e-01)1.000:2.606248e-01)1.000:1.375981e-01,54:4.300170e-01)1.000:4.589067e-01)1.000:1.234429e-01)1.000:1.041135e-01)1.000:6.345383e-02,(11:3.213057e-01,44:6.913919e-01)0.995:6.320359e-02)1.000:6.801338e-02,15:2.845579e-01)1.000:2.291668e-01)1.000:5.587745e-02,(10:1.397477e-01,13:1.172579e-01)1.000:3.439354e-02)1.000:4.013864e-02,((17:1.400770e-01,55:1.128244e-01)1.000:4.043157e-02,29:1.039213e-01)0.801:1.686388e-02);
+
+   [Note: This tree contains information only on the topology
+          and branch lengths (median of the posterior probability density).]
+   tree con_50_majrule = (1:1.083771e-01,((2:1.535147e-01,(((((((((((3:9.871091e-02,19:8.329137e-02):1.162480e-01,22:2.075638e-01):5.086009e-02,18:2.390777e-01):3.549191e-02,53:2.896504e-01):1.173197e-01,(((9:3.860122e-02,(((23:2.237143e-02,24:1.826005e-02):1.913051e-02,25:3.234550e-02):2.931827e-02,37:7.658591e-02):1.008933e-02):1.181186e-02,21:2.539564e-02):2.085933e-01,(33:1.545800e-01,34:1.017645e-01):1.151444e-01):1.169109e-01):2.165445e-02,(((8:2.042473e-01,((38:6.060636e-02,(39:6.541243e-02,40:8.601959e-02):1.525698e-02):2.324173e-02,(41:4.272286e-02,42:6.780658e-02):6.213209e-02):2.344579e-01):4.025259e-02,((((12:8.408204e-02,(35:6.132178e-02,36:6.970186e-02):2.720333e-02):2.144398e-02,32:7.764527e-02):2.638797e-01,14:1.153822e-01):4.255918e-02,(28:1.941606e-01,31:2.680800e-01):4.297006e-02):1.602352e-01):3.947970e-02,(26:2.114543e-01,43:2.005786e-01):1.480564e-01):3.272456e-02):4.544477e-02,((16:4.263272e-01,(20:3.589334e-01,30:3.115302e-01):9.001264e-02):2.360595e-01,(45:5.856145e-01,52:7.345631e-01):1.508506e-01):9.573405e-02):6.400902e-02,6:5.544175e-01):4.705321e-02,((4:1.549057e-01,5:1.459799e-01):5.192304e-01,((7:4.591271e-01,27:9.876354e-01):2.920450e-01,(((((46:4.432707e-02,47:3.765276e-02):5.727563e-02,48:1.302235e-01):4.476783e-01,51:4.138369e-01):1.541732e-01,(49:1.892797e-01,50:1.899690e-01):2.606248e-01):1.375981e-01,54:4.300170e-01):4.589067e-01):1.234429e-01):1.041135e-01):6.345383e-02,(11:3.213057e-01,44:6.913919e-01):6.320359e-02):6.801338e-02,15:2.845579e-01):2.291668e-01):5.587745e-02,(10:1.397477e-01,13:1.172579e-01):3.439354e-02):4.013864e-02,((17:1.400770e-01,55:1.128244e-01):4.043157e-02,29:1.039213e-01):1.686388e-02);
+end;

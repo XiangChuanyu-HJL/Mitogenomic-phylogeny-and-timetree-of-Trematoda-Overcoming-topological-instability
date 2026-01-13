@@ -1,0 +1,24 @@
+#nexus
+begin sets;
+  charset atp6_mafft_gb = 1-131;
+  charset cox1_mafft_gb = 132-615;
+  charset cox2_mafft_gb = 616-762;
+  charset cox3_mafft_gb = 763-921;
+  charset cytb_mafft_gb = 922-1284;
+  charset nad1_mafft_gb = 1285-1559;
+  charset nad2_mafft_gb = 1560-1788;
+  charset nad3_mafft_gb = 1789-1868;
+  charset nad4L_mafft_gb = 1869-1949;
+  charset nad6_mafft_gb = 2626-2729;
+  charpartition mymodels =
+    mtInv+F+R5: atp6_mafft_gb,
+    mtZOA+F+I+G4: cox1_mafft_gb,
+    mtZOA+F+I+G4: cox2_mafft_gb,
+    mtInv+F+I+G4: cox3_mafft_gb,
+    mtMet+F+I+R5: cytb_mafft_gb,
+    mtZOA+F+I+G4: nad1_mafft_gb,
+    mtInv+F+G4: nad2_mafft_gb,
+    mtInv+F+G4: nad3_mafft_gb,
+    mtMet+F+G4: nad4L_mafft_gb,
+    mtZOA+F+G4: nad6_mafft_gb;
+end;

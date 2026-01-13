@@ -1,0 +1,15 @@
+#nexus
+begin sets;
+	charset atp6_mafft=1-200;
+	charset cox1_mafft=201-939;
+	charset cox2_mafft=940-1188;
+	charset cox3_mafft=1189-1447;
+	charset cytb_mafft=1448-1824;
+	charset nad1_mafft=1825-2143;
+	charset nad2_mafft=2144-2494;
+	charset nad3_mafft=2495-2679;
+	charset nad4L_mafft=2680-2775;
+	charset nad4_mafft=2776-3219;
+	charset nad5_mafft=3220-3797;
+	charset nad6_mafft=3798-3972;
+end;

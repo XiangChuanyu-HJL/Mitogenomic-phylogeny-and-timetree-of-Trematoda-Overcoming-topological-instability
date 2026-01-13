@@ -1,0 +1,72 @@
+#nexus
+begin sets;
+  charset atp6_mafft_NT_removed_chars_gb_codon1 = 1-435\3;
+  charset atp6_mafft_NT_removed_chars_gb_codon2 = 2-435\3;
+  charset cox1_mafft_NT_removed_chars_gb_codon1 = 436-1938\3;
+  charset cox1_mafft_NT_removed_chars_gb_codon2 = 437-1938\3;
+  charset cox2_mafft_NT_removed_chars_gb_codon1 = 1939-2460\3;
+  charset cox2_mafft_NT_removed_chars_gb_codon2 = 1940-2460\3;
+  charset cox2_mafft_NT_removed_chars_gb_codon3 = 1941-2460\3;
+  charset cox3_mafft_NT_removed_chars_gb_codon2 = 2462-3054\3;
+  charset nad1_mafft_NT_removed_chars_gb_codon2 = 4151-5010\3;
+  charset nad2_mafft_NT_removed_chars_gb_codon2 = 5012-5766\3;
+  charset nad3_mafft_NT_removed_chars_gb_codon2 = 5768-6066\3;
+  charset nad4L_mafft_NT_removed_chars_gb_codon1 = 6067-6306\3;
+  charset nad4L_mafft_NT_removed_chars_gb_codon2 = 6068-6306\3;
+  charset nad4L_mafft_NT_removed_chars_gb_codon3 = 6069-6306\3;
+  charset nad4_mafft_NT_removed_chars_gb_codon2 = 6308-7467\3;
+  charset nad5_mafft_NT_removed_chars_gb_codon2 = 7469-8841\3;
+  charset trnA_mafft_gb = 10670-10729;
+  charset trnD_mafft_gb = 10771-10820;
+  charset trnE_mafft_gb = 10821-10870;
+  charset trnF_mafft_gb = 10871-10928;
+  charset trnG_mafft_gb = 10929-10991;
+  charset trnI_mafft_gb = 11045-11107;
+  charset trnK_mafft_gb = 11108-11155;
+  charset trnL1_mafft_gb = 11156-11210;
+  charset trnL2_mafft_gb = 11211-11265;
+  charset trnN_mafft_gb = 11316-11376;
+  charset trnP_mafft_gb = 11377-11436;
+  charset trnQ_mafft_gb = 11437-11484;
+  charset trnR_mafft_gb = 11485-11537;
+  charset trnS1_mafft_gb = 11538-11582;
+  charset trnS2_mafft_gb = 11583-11627;
+  charset trnT_mafft_gb = 11628-11687;
+  charset trnV_mafft_gb = 11688-11736;
+  charset trnW_mafft_gb = 11737-11795;
+  charpartition mymodels =
+    TVM+F+R4: atp6_mafft_NT_removed_chars_gb_codon1,
+    GTR+F+G4: atp6_mafft_NT_removed_chars_gb_codon2,
+    TIM2+F+I+G4: cox1_mafft_NT_removed_chars_gb_codon1,
+    GTR+F+I+G4: cox1_mafft_NT_removed_chars_gb_codon2,
+    TIM2+F+R4: cox2_mafft_NT_removed_chars_gb_codon1,
+    TVM+F+I+G4: cox2_mafft_NT_removed_chars_gb_codon2,
+    TIM2+F+R4: cox2_mafft_NT_removed_chars_gb_codon3,
+    TVM+F+G4: cox3_mafft_NT_removed_chars_gb_codon2,
+    TVM+F+G4: nad1_mafft_NT_removed_chars_gb_codon2,
+    GTR+F+I+G4: nad2_mafft_NT_removed_chars_gb_codon2,
+    TVM+F+G4: nad3_mafft_NT_removed_chars_gb_codon2,
+    TN+F+G4: nad4L_mafft_NT_removed_chars_gb_codon1,
+    TVM+F+G4: nad4L_mafft_NT_removed_chars_gb_codon2,
+    TIM2+F+ASC+R3: nad4L_mafft_NT_removed_chars_gb_codon3,
+    TVM+F+I+G4: nad4_mafft_NT_removed_chars_gb_codon2,
+    GTR+F+I+G4: nad5_mafft_NT_removed_chars_gb_codon2,
+    TIM3+F+I+R3: trnA_mafft_gb,
+    TPM3u+F+G4: trnD_mafft_gb,
+    TPM2u+F+G4: trnE_mafft_gb,
+    TPM3u+F+I+G4: trnF_mafft_gb,
+    TPM3u+F+G4: trnG_mafft_gb,
+    TPM3u+F+G4: trnI_mafft_gb,
+    TPM3u+F+G4: trnK_mafft_gb,
+    TVM+F+G4: trnL1_mafft_gb,
+    TIM3+F+G4: trnL2_mafft_gb,
+    TIM3+F+I+G4: trnN_mafft_gb,
+    TIM2+F+G4: trnP_mafft_gb,
+    TPM3u+F+R3: trnQ_mafft_gb,
+    TPM3u+F+G4: trnR_mafft_gb,
+    TIM3+F+G4: trnS1_mafft_gb,
+    TIM3+F+G4: trnS2_mafft_gb,
+    TPM3u+F+G4: trnT_mafft_gb,
+    HKY+F+G4: trnV_mafft_gb,
+    HKY+F+G4: trnW_mafft_gb;
+end;
